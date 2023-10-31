@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Círculo de Jujuy</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
+</head>
+<body>
+  <!-- Inicio del menu -->
+  <nav class="navbar navbar-expand-md bg-light">
+    <div class="container-fluid">
+      <!-- boton del menu -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- elementos del menu colapsable -->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto"> <!--ms:derecha, me:izquierda-->
+          <li class="nav-item">
+            <a class="nav-link active" id="seleccionado" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#quienessomos">QUIENES SOMOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nuestroslogros">NUESTROS LOGROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#comoayudar">CÓMO AYUDAR</a>
+          </li>
+        </ul>
+        <hr class="d-md-none text-white-50">
+      </div>
+    </div>  
+  </nav>    
+
+    <div class="container_all" id="container__all">
+        <div class="cover">
+
+            <!--INICIO WAVE-->
+
+                <div class="bg_color"></div>
+                <div class="wave w1"></div>
+                <div class="wave w2"></div>
+
+            <!--FINAL WAVE-->
+
+            <div class="container__cover">
+                <div class="container__info">
+                    <h1>CIRCULO DE</h1>
+                    <h2>JUJUY</h2>
+                    <p>Somos un grupo de voluntarios a los que nos motiva ayudar. Te invitamos a formar
+                       parte de nuestro círculo. Jujuy te necesita. ¡Sumate!
+                    </p>                    
+                </div>
+                
+            </div>
+        </div>
+        <!--QUIENES SOMOS-->
+        <section class="quienessomos" id="quienessomos">            
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 text-justify">
+                        <h3 class="my-5"><u>QUIENES SOMOS</u></h3>
+                        <p><b>Presidente:</b> Sra. María Lina Valdez de Molina</p>
+                        <p><b>Vicepresidente:</b> Sra. Norma E. Casas Gamboni</p>
+                        <p><b>Vicepresidente 2da:</b> Sra. Ester Delgado</p>                           
+                        <p><b>Secretaria:</b> Sra. Juliana Falcon</p>   
+                        <p><b>Tesorera:</b> Sra. Norma Segobia</p>   
+                        <p><b>Protesorera:</b> Sra. María Mercedes Ricardes</p>
+                        <p><b>Vocales:</b></p>
+                        <p>Sra. Mercedes Ponte, Sra. María Elena Martinez</p>
+                        <p>Sra. Lorena Di Rollo, Sra. Stella Vilca</p>
+                        <p>Sra. María Alejandra Álvarez, Sra. Aída Brandan de Sánchez Varela</p>                
+                        <p>Sra. Alcira Velazquez, Sra. Patricia Álvarez</p>
+                        <p>Sra. Ayelén Carina Calisaya</p>
+                        <p><b> Delegada ante el Consejo Superior:</b> Sra. Nelda Wayar de Muga</p>      
+                        <p><b>Delegados en la Provincia de Jujuy:</b></p>
+                        <p> Sra. Andrea Molina Valdez</p>
+                        <p> Sra. Antonia Mamaní</p>
+                        <p> Dr. Carlos Quinteros</p>
+                        <p>Dr. Marcelo Villa</p>                        
+                    </div>
+                    <div class="col-6">
+                        <h3 class="my-5"><u>NUESTROS OBJETIVOS</u></h3>
+                        <p>Contribuir con elementos materiales para cubrir necesidades asistenciales, sociales y educacionales de personas carentes de recursos económicos.
+                           Colaborar con Hospitales, Hogares de ancianos, Cooperadoras escolares, Comedores infantiles, Salas de primeros auxilios y otros.                            
+                           Gestionar en ésta ciudad internaciones, tratamientos, curaciones, etc. a jujeños que llegan a Buenos Aires.                            
+                           Proveer el desarrollo comunitario tendiente a ayudar a aquellos que lo necesitan.                            
+                           Promover una mejor calidad de vida.</p>
+                           <br>
+                           <br>
+                           <div id="carouselExampleCaptions" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images/deefensores_web.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-light bg-dark">NUEVO ENVÍO A LAS FUTURAS MAMÁS</h5>
+                                    <p>El mes de junio enviamos 6 cajas cuyo contenido de ropa, juguetes y calzado fueron destinados a bebés y embarazadas de la ASOCIACIÓN DEFENSORES DE MAMÁS.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/IMG-20210804-WA0032.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5 class="text-light bg-dark">SONRISAS EN TUSAQUILLAS</h5>
+                                  <p>En la Unidad de Gestión Educativa N° 56 "Nuestro Señor del Milagro" de la localidad de Tusaquillas llegaron 6 cajas con donaciones y los chicos felices.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/IMG-20210811-WA0015_web.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5 class="text-light bg-dark">EN EL HOGAR DE ANCIANOS</h5>
+                                  <p>Gracias a los cuidados y atención de la Hermana Pascuala y el personal del HOGAR DE ANCIANOS DE LA QUIACA.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>                                                         
+                    </div>               
+                </div>
+            </div>
+        </section>
+        <!--NUESTROS LOGROS-->
+        <section class="nuestroslogros" id="nuestroslogros">           
+            <div class="container">
+              <div class="row">
+                <h3 class="my-5"><u>NUESTROS LOGROS</u></h3>
+                <div class="col-3">                    
+                  <div class="card text-center">                      
+                    <img src="images/Hogares.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Hogares de ancianos</h5>
+                      <p class="card-text">Hogar de Ancianos “Del Rosario” –Dpto. Tilcara
+                        Hogar de Ancianos “Nuestra Señora de La Merced”- La Quiaca</p>
+                      <a href="http://www.circulodejujuy.com.ar/" target="_blank" class="btn btn-primary">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="card text-center">
+                    <img src="images/ago2021_13_web.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Guarderias</h5>
+                      <p class="card-text">Centro Municipal de Cuidados Infantiles Abra Pampa Dpto. Cochinoca</p>
+                      <a href="http://www.circulodejujuy.com.ar/" target="_blank" class="btn btn-primary">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                    <div class="card text-center">
+                      <img src="Images/PULMON_1_WEB.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-title">Merenderos</h5>
+                        <p class="card-text">Desde hace 5 años se reunió un grupo de madres preocupadas por la nutrición de niños y abuelos del barrio ubicado en Puerto Argentino (entre la calle Chaile y Torres del lado del Asentamiento 16 de mayo) en San Salvador de Jujuy y crearon el MERENDERO A TODO PULMÓN.</p>
+                        <a href="http://www.circulodejujuy.com.ar/" target="_blank" class="btn btn-primary">Ver más</a>
+                      </div>
+                    </div>
+                  </div> 
+                <div class="col-3">
+                  <div class="card text-center">
+                    <img src="Images/Artekis-01-1536x712.jpeg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Formando Lectores</h5>
+                      <p class="card-text">El Círculo de Damas de la Provincia de Jujuy continúa acompañando a instituciones como la Biblioteca Artekis, donde nuestros niños disfrutan de buenas lecturas.</p>
+                      <a href="https://beneficencia.org.ar/circulo-de-jujuy/?query-1-page=2" target="_blank" class="btn btn-primary">Ver más</a>
+                    </div>
+                  </div>
+                </div>              
+              </div>
+            </div>
+        </section>
+        <!--COMO AYUDAR-->
+        <section class="comoayudar" id="comoayudar">            
+          <div class="container">
+              <div class="row">
+                  <div class="col-6 text-justify">
+                      <h3 class="my-5"><u>DONACIONES</u></h3>
+                      <p id="product-description"><b>Te invitamos a formar parte de nuestro Círculo. Podés ayudarnos de las siguientes maneras:</b></p>                      
+                      <ul>
+                        <li>Donar ropa, calzado, útiles, juguetes, pañales, golosinas, medicamentos.</li><br>
+                        <li>Asistir a eventos especiales organizados por la institución para recaudar fondos.</li><br>
+                        <li>Difundir nuestra tarea.</li><br>
+                        <li>Sumarse a nuestro trabajo para clasificar y embalar donaciones.</li>
+                      </ul>   
+                                                             
+                  </div>
+                  <div class="col-6">                    
+                    <h5 class="my-5"><u>También podes hacer donaciones por Mercado Pago</u></h5>
+                    <p>Elegí el monto que prefieras donar:</p>                    
+                    <div class="buttons-container">
+                      <button type="button" id="donate-3" class="btn btn-outline-danger">3 ♥️</button>
+                      <button type="button" id="donate-5" class="btn btn-outline-danger">5 ♥️</button>
+                      <button type="button" id="donate-10" class="btn btn-outline-danger">10 ♥️</button>                      
+                    </div>
+                    <br>
+                    <p>O ingresá la cantidad que deseas donar:</p>
+                    <input type="number" id="amount-input" min="0" />
+                    <p>Total a abonar: $<span id="total-amount">0</span></p>                   
+                    <button type="button" id="checkout-btn" class="btn btn-outline-secondary">Checkout</button>                   
+                    <div id="button-checkout"></div>                                                                         
+                  </div>               
+              </div>
+          </div>
+        </section>        
+
+        <!--FOOTER-->        
+            <div class="container-testimonials">
+                <div class="box__testimonials"></div>
+                <div class="box__testimonials"></div>
+                <div class="box__testimonials"></div>
+            </div>        
+        <Footer>
+            <div class="container__footer">
+                <div class="box__footer">
+                    <div class="logo">
+                        <img src="Images/headerimg.jpg" alt="">
+                    </div>
+                    <div class="terms">
+                        <p>Confederación Nacional de Beneficencia - CIRCULO DE JUJUY.<br>
+                           Paseo Colón 413 Piso 1 CABA Argentina.<br>
+                           T.E.: 4773.6823 / Cel. 154405.9456 / WhatsApp: 114405.9456
+                           circulodedamasdejujuy@hotmail.com
+                    </div>
+                </div>
+                <div class="box__footer">
+                    <h2>Otros círculos</h2>
+                    <a href="https://beneficencia.org.ar/circulo-de-buenos-aires/" target="_blank">Círculo de Buenos Aires</a>
+                    <a href="https://beneficencia.org.ar/circulo-de-neuquen/" target="_blank">Círculo de Neuquén</a>
+                    <a href="https://beneficencia.org.ar/circulo-de-jujuy/" target="_blank">Círculo de Jujuy</a>                    
+                </div>
+                <div class="box__footer">
+                    <h2>Redes Sociales</h2>
+                    <a href="https://www.facebook.com/circulodejujuy" target="_blank"><i class="fab fa-facebook-square"></i></a>                    
+                    <a href="https://www.instagram.com/cbeneficencia/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                </div>
+            </div>
+            <div class="box__copyright">
+                <hr>
+                <p>Todos los derechos reservados © 2023 <b>CodeBaires</b></p>
+            </div>
+        </Footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="/index.js"></script>
+</body>
+</html>
