@@ -1,3 +1,7 @@
+# Proyecto InkuA 2023
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2A081B&width=1000&lines=CodeBaires-Grupo18)](https://git.io/typing-svg)
+
 ![Captura de pantalla 2023-10-21 143930](https://github.com/Ro07-r/Inkua-Project/assets/84238521/bc842ecb-20d2-45fa-99db-880adcfc7146)
 
 ![Captura de pantalla 2023-10-21 205718](https://github.com/Ro07-r/Inkua-Project/assets/84238521/bce19619-3601-4917-8c86-79798e6425fe)
