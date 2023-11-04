@@ -89,7 +89,7 @@ Status (Estado en el que se encuentra la actividad)
 
 <h3>Pasos:</h3>
 
--En la terminal de VSC ubicarse dentro de la carpeta server y usar este comando para iniciar el localhost:
+- En la terminal de VSC ubicarse dentro de la carpeta server y usar este comando para iniciar el localhost:
 
 ```bash
 npm start
