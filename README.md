@@ -31,7 +31,7 @@
 | :computer: Dev  | Matías Quispe |
 
 
-<h3>Metodología de trabajo</h3>
+<h3>Metodología de trabajo:</h3>
 
 Utilizamos la metodología de trabajo mixta entre Scrum y Kanban, nos manejaremos con un tablero de trabajo que tendrá distintas columnas por estado.
 Trabajaremos con Milestones en los que se cargarán los distintos issues.
@@ -49,7 +49,7 @@ Las columnas tendrán los siguientes estados:
 :thumbsup: DONE: Las tareas finalizadas
 
 
-<h3>Workflow</h3>
+<h3>Workflow:</h3>
 
 Contaremos con la rama main y la rama test. Por cada card (issue) correspondiente a la tarea asignada se creará una rama que luego de finalizada será commiteada, pusheada y se realizará un pull request para mergear a la rama test. El issue será testeado y una vez realizado esto se mergeará mediante un pull request a la rama main.
 
@@ -76,7 +76,7 @@ Status (Estado en el que se encuentra la actividad)
 </p>
 
 
-<h3>Integración con MercadoPago</h3>
+<h3>Integración con MercadoPago:</h3>
 
 - Datos de tarjetas para realizar pruebas de pago:
 
@@ -85,3 +85,12 @@ Status (Estado en el que se encuentra la actividad)
 |<p align="center">Mastercard</p>|<p align="center">5031 7557 3453 0604</p>|<p align="center">123</p>|<p align="center">11/25</p>|<p align="center">12345678</p>
 |<p align="center">Visa</p>|<p align="center">4509 9535 6623 3704</p>|<p align="center">123</p>|<p align="center">11/25</p>|<p align="center">12345678</p>
 |<p align="center">American Express</p>|<p align="center">3711 803032 57522</p>|<p align="center">123</p>|<p align="center">11/25</p>|<p align="center">12345678</p>
+
+
+<h3>Pasos:</h3>
+
+-En la terminal de VSC ubicarse dentro de la carpeta server y usar este comando para iniciar el localhost:
+
+```bash
+npm start
+```
