@@ -1,4 +1,4 @@
-//Mercado Pago
+// Mercado Pago
 const mercadopago = new MercadoPago("TEST-366f97e4-58ef-4ae9-9334-57f3015a2dd8", {
   locale: "es-AR", // The most common are: 'pt-BR', 'es-AR' and 'en-US'
 });
@@ -37,7 +37,7 @@ function createCheckoutButton(preferenceId) {
 
     await bricksBuilder.create(
       "wallet",
-      "button-checkout", // class/id where the payment button will be displayed
+      "button-checkout", // ID de clase donde se mostrará el botón de pago.
       {
         initialization: {
           preferenceId: preferenceId,
