@@ -197,4 +197,122 @@ footer{
     height: 1px;
     background-color: #7a7a7a;
 }
+/*ESTILO INPUT MP*/
+
+input[type="number"] {
+    font-size: 1.2em;
+    font-weight: 350;    
+    border-radius: 5px;
+    padding: 5px;    
+    margin-bottom: 10px;
+    border: 1px solid grey;
+  }
+
+.card{
+    transition: all 0.8s;
+}
+
+.card:hover{
+    transform: scale(1.15);
+}
+
+.carousel{
+    transition: all 0.8s ease;
+}
+
+.carousel:hover{
+    transition: all 0.6s ease;
+    filter:grayscale(50%);
+}  
+
+.card-body{
+    background-image: url('../images/manos.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center;   
+}
+
+.card-title{
+    font-weight: bold; 
+}
+
+.card{
+    color: #000000; /* Cambia el color del texto */
+    font-weight: bold;
+}
+
+.my-5{
+    font-size: 35px;
+    font-weight: bold;    
+}
+  
+#anaglyph-text{
+    font-size: 30px;
+    color: rgba(255,0,0,0.4);
+}
+
+#text{
+    font-size: 30px;
+    color: rgba(0,0,255,0.3);
+}
+
+#imgFondo{
+    background-image: url('../images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash-ptcgov4oegtur9r9qdvx6jgr29vtyd34ijd0t5fq4o.webp'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-attachment: fixed; /* Opcional, fija la imagen de fondo */
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo con transparencia (en este caso, blanco con 50% de transparencia) */
+}
+
+#side{
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0,0,0,0.8);
+}
+
+#side2{
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0,0,0,0.8);
+}
+
+#contact p{
+    color: rgba(255,0,0,0.4); 
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.form-control::placeholder {
+    color: rgba(0,0,0,0.4);
+}
+
+.form-control{
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo con transparencia (en este caso, blanco con 50% de transparencia) */
+    border: 1px solid white; 
+}
+
+.form-control:focus{
+  background-color: rgba(255, 255, 255, 0.5); /* Mantén la transparencia cuando el campo está enfocado o en hover */
+  box-shadow: none;
+  border: 1px solid lightgray;
+}
+
+.so{
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0,0,0,0.8);
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#product-description{
+    background-color: rgba(255, 99, 71, 0.2);
+    display: inline;
+}
+
+.lastComent{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #000000;
+}
 
