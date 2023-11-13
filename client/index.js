@@ -1,3 +1,46 @@
+//Botones Mercado Pago   
+
+const productDescription = document.getElementById("product-description");
+
+const heart5Button = document.getElementById("donate-5");
+const heart10Button = document.getElementById("donate-10");
+const heart20Button = document.getElementById("donate-20");
+
+const amountInput = document.getElementById("amount-input");
+const totalAmount = document.getElementById("total-amount");
+
+let heartCount = 0;
+
+heart5Button.addEventListener("click", () => {
+  amountInput.value = 5;
+  heartCount = 5;
+  updateTotalAmount();
+});
+
+heart10Button.addEventListener("click", () => {
+  amountInput.value = 10;
+  heartCount = 10;
+  updateTotalAmount();
+});
+
+heart20Button.addEventListener("click", () => {
+  amountInput.value = 20;
+  heartCount = 20;
+  updateTotalAmount();
+});
+
+amountInput.addEventListener("input", () => {
+  heartCount = amountInput.value;
+  updateTotalAmount();
+});
+
+const updateTotalAmount = () => {
+  const updatedAmount = heartCount * 100;
+  totalAmount.innerText = updatedAmount;
+};
+
+
+
 //Mercado Pago
 const mercadopago = new MercadoPago("TEST-366f97e4-58ef-4ae9-9334-57f3015a2dd8", {
     locale: "es-AR", // The most common are: 'pt-BR', 'es-AR' and 'en-US'
