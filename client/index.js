@@ -39,8 +39,6 @@ const updateTotalAmount = () => {
   totalAmount.innerText = updatedAmount;
 };
 
-
-
 //Mercado Pago
 const mercadopago = new MercadoPago("TEST-366f97e4-58ef-4ae9-9334-57f3015a2dd8", {
     locale: "es-AR", // The most common are: 'pt-BR', 'es-AR' and 'en-US'

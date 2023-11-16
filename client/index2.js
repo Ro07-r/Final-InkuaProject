@@ -38,7 +38,4 @@ window.sr = ScrollReveal();
     duration: 3000,
     origin: 'right',
     distance: '-500px'
-  });
-
-
-  
+  });  
