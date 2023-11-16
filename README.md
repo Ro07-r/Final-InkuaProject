@@ -87,6 +87,11 @@ Status (Estado en el que se encuentra la actividad)
 |<p align="center">American Express</p>|<p align="center">3711 803032 57522</p>|<p align="center">123</p>|<p align="center">11/25</p>|<p align="center">12345678</p>
 
 
+<h3>Variables de entorno:</h3>
+
+- MP_ACCESS_TOKEN
+
+
 <h3>Pasos:</h3>
 
 - En la terminal de VSC ubicarse dentro de la carpeta server y usar este comando para iniciar el localhost:
